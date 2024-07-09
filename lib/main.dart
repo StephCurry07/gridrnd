@@ -137,11 +137,22 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                Container(
-                  child: CustomPaint(
-                    size: Size(MediaQuery.sizeOf(context).height,
-                        MediaQuery.sizeOf(context).width),
-                    painter: CurvePainter(),
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        SizedBox(
+                            height:
+                                20), // Adjust this value to add space above the CustomPaint
+                        CustomPaint(
+                          size: Size(MediaQuery.of(context).size.height,
+                              MediaQuery.of(context).size.width),
+                          painter: CurvePainter(),
+                        ),
+                        // Add other widgets as needed
+                      ],
+                    ),
                   ),
                 ),
               ],

@@ -9,7 +9,7 @@ This Flutter application helps users practice mindfulness breathing exercises.
 - **Statistics:** Tracks and displays session durations and progress.
 
 ## Screenshots
-![alt text](image.png)
+![Resulting App](image.png)
 
 ## Installation
 
