@@ -137,7 +137,7 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                Expanded(
+                Container(
                   child: CustomPaint(
                     size: Size(MediaQuery.sizeOf(context).height,
                         MediaQuery.sizeOf(context).width),
