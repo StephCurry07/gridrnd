@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216337217404",
+    "project_id": "gridrnd-fda43",
+    "storage_bucket": "gridrnd-fda43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216337217404:android:c0d6a775cbbcafbc2056f9",
+        "android_client_info": {
+          "package_name": "com.gridrnd.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOlW_QwlC-r_tx7nUHvwAdqEQ258tIFuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
