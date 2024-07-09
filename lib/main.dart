@@ -137,9 +137,9 @@ class MyApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                Container(
+                Expanded(
                   child: CustomPaint(
-                    size: Size(MediaQuery.sizeOf(context).height * 2,
+                    size: Size(MediaQuery.sizeOf(context).height,
                         MediaQuery.sizeOf(context).width),
                     painter: CurvePainter(),
                   ),

@@ -1,16 +1,51 @@
-# gridrnd
+# Mindfulness Breathing App
 
-A new Flutter project.
+This Flutter application helps users practice mindfulness breathing exercises.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Breathing Timer:** Allows users to set and track breathing sessions.
+- **Visual Guides:** Provides visual cues and instructions for inhaling and exhaling.
+- **Statistics:** Tracks and displays session durations and progress.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Include screenshots of your app here to give users a visual preview.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+Follow these steps to run the app locally:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/StephCurry07/mindfulness_breathing_app.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd mindfulness_breathing_app
+```
+
+3. Install dependencies:
+`flutter pub get`
+
+
+4. Run the app:
+
+```
+flutter run
+```
+
+## Dependencies
+
+- **flutter:** 3.3.2 or higher
+- **google_fonts:** ^6.0.1
+
+Ensure you have Flutter installed and configured on your system.
+
+## Usage
+Just a single page.
+
+
